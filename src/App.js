@@ -1,24 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <h1>Zozo Book Store</h1>
+   <p>Zozo Book Store, nestled in the city, offers a diverse collection from classics to contemporary reads. With a cozy aura and inviting reading nooks, it's a haven for book lovers.</p>
+   </>
   );
 }
 
